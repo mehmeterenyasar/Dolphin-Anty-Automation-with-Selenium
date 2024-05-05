@@ -44,10 +44,11 @@ def listBrowsers():
 
                 # Delete all profiles
                 response = requests.delete(delete_url, headers=headers, json=payload)
-
+                print(response.text)
 
         else:
             print("There isn't any profile created.")
 
 
+listBrowsers()
 
