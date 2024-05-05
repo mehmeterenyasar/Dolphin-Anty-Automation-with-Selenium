@@ -4,7 +4,7 @@ import requests
 
 
 login_url = 'http://localhost:3001/v1.0/auth/login-with-token'
-auth_token = '' # Your API Token
+auth_token = '' # Your API Key
 request_data = {
     'token':auth_token
 }
