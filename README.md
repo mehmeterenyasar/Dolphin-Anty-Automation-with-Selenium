@@ -20,6 +20,7 @@ This file is how you can create and update profiles via api.
 
 
 # Note
-You need to have chromedriver to open profiles and use with selenium. You can find it dolphin anty's documentation.
+You need to have chromedriver to open profiles and use with selenium. It can be downloaded on dolphin anty's documentation.  
+Chrome driver download link is: anty-browser.s3.amazonaws.com/chromedriver-124.zip
 I've only shared basic CRUD operations for profiles. There is an official documentation for wider usage.
 Hope that was helpfull.
