@@ -8,6 +8,18 @@ This repo is created to automate proxy browsers of Dolphin Anty with Selenium.
 
 This file is how can you open a browser to use with Selenium.
 
-# browser_crud.py
 
-This file is how can you create and delete profiles(browsers) on Dolphin Anty. There is an official documentation for wider usage.
+# delete_profile.py
+
+This file is how can you list and delete all the profiles(browsers) on Dolphin Anty.
+
+
+# create_profile.py
+
+This file is how you can create and update profiles via api. 
+
+
+# Note
+You need to have chromedriver to open profiles and use with selenium. You can find it dolphin anty's documentation.
+I've only shared basic CRUD operations for profiles. There is an official documentation for wider usage.
+Hope that was helpfull.
